@@ -15,6 +15,9 @@ function App() {
     >
       <img src={Logo} alt='logo' style={{ width: '200px' }} />
       <h1 style={{ textAlign: 'center', padding: '20px' }}>New website coming soon</h1>
+      <h4>
+        Contact <a href='mailto:info@libralithium.com'>info@libralithium.com</a> to get in touch
+      </h4>
     </div>
   );
 }
