@@ -1,7 +1,7 @@
 import Logo from './assets/logo.png';
 
 function App() {
-  function downloadFile(fileName) {
+  function downloadFile(fileName: string) {
     const uri = `${window.location.origin}/${fileName}`;
     const link = document.createElement('a');
     link.setAttribute('download', fileName);
